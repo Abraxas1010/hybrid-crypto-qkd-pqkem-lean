@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="qkdGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pqGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00897b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004d40;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hybridGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef6c00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e65100;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="18" font-weight="bold">Hybrid Key Establishment Architecture</text>
+
+  <!-- QKD Component -->
+  <rect x="50" y="80" width="200" height="120" rx="10" fill="url(#qkdGrad)" stroke="#42a5f5" stroke-width="2"/>
+  <text x="150" y="115" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">QKD Protocol</text>
+  <text x="150" y="140" text-anchor="middle" fill="#bbdefb" font-family="monospace" font-size="11">Information-Theoretic</text>
+  <text x="150" y="160" text-anchor="middle" fill="#bbdefb" font-family="monospace" font-size="11">Security (BB84)</text>
+  <text x="150" y="185" text-anchor="middle" fill="#90caf9" font-family="monospace" font-size="10">IdealKeyExchange</text>
+
+  <!-- PQ-KEM Component -->
+  <rect x="350" y="80" width="200" height="120" rx="10" fill="url(#pqGrad)" stroke="#4db6ac" stroke-width="2"/>
+  <text x="450" y="115" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">PQ-KEM</text>
+  <text x="450" y="140" text-anchor="middle" fill="#b2dfdb" font-family="monospace" font-size="11">Computational</text>
+  <text x="450" y="160" text-anchor="middle" fill="#b2dfdb" font-family="monospace" font-size="11">Security (ML-KEM)</text>
+  <text x="450" y="185" text-anchor="middle" fill="#80cbc4" font-family="monospace" font-size="10">KEMScheme</text>
+
+  <!-- Arrows to Hybrid -->
+  <path d="M 150 200 L 150 250 L 250 280" stroke="#42a5f5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 450 200 L 450 250 L 350 280" stroke="#4db6ac" stroke-width="2" fill="none"/>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ef6c00"/>
+    </marker>
+  </defs>
+
+  <!-- Hybrid Combiner -->
+  <rect x="175" y="270" width="250" height="100" rx="10" fill="url(#hybridGrad)" stroke="#ff9800" stroke-width="3"/>
+  <text x="300" y="305" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">Hybrid Combiner</text>
+  <text x="300" y="330" text-anchor="middle" fill="#ffe0b2" font-family="monospace" font-size="11">K = K_qkd || K_pq</text>
+  <text x="300" y="355" text-anchor="middle" fill="#ffcc80" font-family="monospace" font-size="10">"Either Breaks" Security</text>
+
+  <!-- Security Property Box -->
+  <rect x="450" y="290" width="130" height="60" rx="5" fill="#2d2d44" stroke="#ff9800" stroke-width="1" stroke-dasharray="4"/>
+  <text x="515" y="315" text-anchor="middle" fill="#ff9800" font-family="monospace" font-size="9">If QKD secure OR</text>
+  <text x="515" y="330" text-anchor="middle" fill="#ff9800" font-family="monospace" font-size="9">PQ-KEM secure</text>
+  <text x="515" y="345" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="9">Hybrid secure</text>
+
+  <!-- Legend -->
+  <rect x="20" y="290" width="12" height="12" fill="#1565c0"/>
+  <text x="38" y="300" fill="#90caf9" font-family="monospace" font-size="9">Quantum</text>
+  <rect x="20" y="310" width="12" height="12" fill="#00897b"/>
+  <text x="38" y="320" fill="#80cbc4" font-family="monospace" font-size="9">Post-Quantum</text>
+  <rect x="20" y="330" width="12" height="12" fill="#ef6c00"/>
+  <text x="38" y="340" fill="#ffcc80" font-family="monospace" font-size="9">Hybrid</text>
+</svg>
