@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-label="UMAP preview">
+<rect x="0" y="0" width="1500" height="900" fill="#0b1220"/>
+<text x="50" y="32" fill="#ffffff" font-size="20" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial">UMAP 2D — Hybrid Crypto proof/declaration map</text>
+<text x="50" y="48" fill="#b8c7d9" font-size="12" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial">Points: declarations (42) | Colors: module family | Edges: kNN similarity links</text>
+<rect x="50" y="50" width="1090" height="800" fill="#0f172a" stroke="#1f2937" stroke-width="1"/>
+<line x1="497.59" y1="225.55" x2="397.43" y2="220.08" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="497.59" y1="225.55" x2="501.15" y2="334.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="497.59" y1="225.55" x2="585.93" y2="309.07" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="501.15" y1="334.46" x2="535.48" y2="392.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="501.15" y1="334.46" x2="585.93" y2="309.07" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="501.15" y1="334.46" x2="497.59" y2="225.55" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="986.90" y1="713.00" x2="940.77" y2="753.67" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="986.90" y1="713.00" x2="930.66" y2="677.76" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="986.90" y1="713.00" x2="1035.14" y2="642.77" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="744.30" y1="672.47" x2="828.94" y2="693.32" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="744.30" y1="672.47" x2="852.68" y2="766.42" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="744.30" y1="672.47" x2="891.91" y2="626.99" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="535.48" y1="392.92" x2="501.15" y2="334.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="535.48" y1="392.92" x2="542.02" y2="483.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="535.48" y1="392.92" x2="585.93" y2="309.07" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="331.44" y1="452.79" x2="416.98" y2="454.21" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="331.44" y1="452.79" x2="314.52" y2="361.36" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="331.44" y1="452.79" x2="376.93" y2="323.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="975.45" y1="594.13" x2="1008.52" y2="551.41" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="975.45" y1="594.13" x2="1035.14" y2="642.77" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="975.45" y1="594.13" x2="891.91" y2="626.99" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="230.82" y1="225.60" x2="191.78" y2="237.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="230.82" y1="225.60" x2="304.00" y2="247.18" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="230.82" y1="225.60" x2="229.75" y2="146.85" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="283.28" y1="112.53" x2="229.75" y2="146.85" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="283.28" y1="112.53" x2="347.80" y2="70.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="283.28" y1="112.53" x2="344.20" y2="180.56" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="229.75" y1="146.85" x2="283.28" y2="112.53" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="229.75" y1="146.85" x2="230.82" y2="225.60" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="229.75" y1="146.85" x2="143.96" y2="181.82" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="304.00" y1="247.18" x2="230.82" y2="225.60" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="304.00" y1="247.18" x2="344.20" y2="180.56" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="304.00" y1="247.18" x2="397.43" y2="220.08" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="376.93" y1="323.46" x2="314.52" y2="361.36" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="376.93" y1="323.46" x2="397.43" y2="220.08" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="376.93" y1="323.46" x2="304.00" y2="247.18" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="143.96" y1="181.82" x2="135.42" y2="122.09" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="143.96" y1="181.82" x2="191.78" y2="237.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="143.96" y1="181.82" x2="229.75" y2="146.85" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="191.78" y1="237.46" x2="230.82" y2="225.60" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="191.78" y1="237.46" x2="143.96" y2="181.82" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="191.78" y1="237.46" x2="154.05" y2="311.97" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="645.74" y1="289.36" x2="585.93" y2="309.07" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="645.74" y1="289.36" x2="708.27" y2="391.33" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="645.74" y1="289.36" x2="535.48" y2="392.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1035.14" y1="642.77" x2="975.45" y2="594.13" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1035.14" y1="642.77" x2="986.90" y2="713.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1035.14" y1="642.77" x2="1120.00" y2="659.02" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1120.00" y1="659.02" x2="1087.42" y2="733.82" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1120.00" y1="659.02" x2="1035.14" y2="642.77" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1120.00" y1="659.02" x2="986.90" y2="713.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1087.42" y1="733.82" x2="1120.00" y2="659.02" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1087.42" y1="733.82" x2="1027.31" y2="805.27" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1087.42" y1="733.82" x2="986.90" y2="713.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="891.91" y1="626.99" x2="930.66" y2="677.76" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="891.91" y1="626.99" x2="975.45" y2="594.13" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="891.91" y1="626.99" x2="828.94" y2="693.32" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1083.00" y1="506.87" x2="1008.52" y2="551.41" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1083.00" y1="506.87" x2="975.45" y2="594.13" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1083.00" y1="506.87" x2="1035.14" y2="642.77" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1008.52" y1="551.41" x2="975.45" y2="594.13" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1008.52" y1="551.41" x2="1083.00" y2="506.87" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1008.52" y1="551.41" x2="938.15" y2="491.61" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="938.15" y1="491.61" x2="1008.52" y2="551.41" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="938.15" y1="491.61" x2="975.45" y2="594.13" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="938.15" y1="491.61" x2="891.91" y2="626.99" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="708.27" y1="391.33" x2="645.74" y2="289.36" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="708.27" y1="391.33" x2="585.93" y2="309.07" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="708.27" y1="391.33" x2="535.48" y2="392.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="585.93" y1="309.07" x2="645.74" y2="289.36" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="585.93" y1="309.07" x2="501.15" y2="334.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="585.93" y1="309.07" x2="535.48" y2="392.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="397.43" y1="220.08" x2="344.20" y2="180.56" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="397.43" y1="220.08" x2="304.00" y2="247.18" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="397.43" y1="220.08" x2="497.59" y2="225.55" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="490.51" y1="488.76" x2="542.02" y2="483.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="490.51" y1="488.76" x2="416.98" y2="454.21" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="490.51" y1="488.76" x2="535.48" y2="392.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="622.53" y1="550.91" x2="542.02" y2="483.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="622.53" y1="550.91" x2="490.51" y2="488.76" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="622.53" y1="550.91" x2="744.30" y2="672.47" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="314.52" y1="361.36" x2="376.93" y2="323.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="314.52" y1="361.36" x2="331.44" y2="452.79" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="314.52" y1="361.36" x2="304.00" y2="247.18" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="542.02" y1="483.92" x2="490.51" y2="488.76" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="542.02" y1="483.92" x2="535.48" y2="392.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="542.02" y1="483.92" x2="622.53" y2="550.91" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="344.20" y1="180.56" x2="397.43" y2="220.08" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="344.20" y1="180.56" x2="304.00" y2="247.18" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="344.20" y1="180.56" x2="283.28" y2="112.53" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="70.00" y1="276.57" x2="154.05" y2="311.97" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="70.00" y1="276.57" x2="143.96" y2="181.82" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="70.00" y1="276.57" x2="191.78" y2="237.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="170.73" y1="377.41" x2="154.05" y2="311.97" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="170.73" y1="377.41" x2="191.78" y2="237.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="170.73" y1="377.41" x2="70.00" y2="276.57" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="154.05" y1="311.97" x2="170.73" y2="377.41" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="154.05" y1="311.97" x2="191.78" y2="237.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="154.05" y1="311.97" x2="70.00" y2="276.57" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="135.42" y1="122.09" x2="143.96" y2="181.82" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="135.42" y1="122.09" x2="229.75" y2="146.85" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="135.42" y1="122.09" x2="191.78" y2="237.46" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="347.80" y1="70.00" x2="283.28" y2="112.53" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="347.80" y1="70.00" x2="344.20" y2="180.56" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="347.80" y1="70.00" x2="229.75" y2="146.85" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="930.66" y1="677.76" x2="891.91" y2="626.99" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="930.66" y1="677.76" x2="986.90" y2="713.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="930.66" y1="677.76" x2="940.77" y2="753.67" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="940.77" y1="753.67" x2="986.90" y2="713.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="940.77" y1="753.67" x2="930.66" y2="677.76" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="940.77" y1="753.67" x2="918.22" y2="830.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="828.94" y1="693.32" x2="852.68" y2="766.42" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="828.94" y1="693.32" x2="744.30" y2="672.47" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="828.94" y1="693.32" x2="891.91" y2="626.99" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="852.68" y1="766.42" x2="828.94" y2="693.32" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="852.68" y1="766.42" x2="940.77" y2="753.67" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="852.68" y1="766.42" x2="918.22" y2="830.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="416.98" y1="454.21" x2="490.51" y2="488.76" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="416.98" y1="454.21" x2="331.44" y2="452.79" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="416.98" y1="454.21" x2="542.02" y2="483.92" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1027.31" y1="805.27" x2="1087.42" y2="733.82" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1027.31" y1="805.27" x2="986.90" y2="713.00" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="1027.31" y1="805.27" x2="940.77" y2="753.67" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="918.22" y1="830.00" x2="940.77" y2="753.67" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="918.22" y1="830.00" x2="852.68" y2="766.42" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<line x1="918.22" y1="830.00" x2="1027.31" y2="805.27" stroke="#3b4b5d" stroke-opacity="0.18" stroke-width="1"/>
+<circle cx="497.59" cy="225.55" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Tests.Crypto.HybridSanity.ke_uc_secure</title>
+</circle>
+<circle cx="501.15" cy="334.46" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Tests.Crypto.HybridSanity.keProtocol</title>
+</circle>
+<circle cx="986.90" cy="713.00" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Tests.Crypto.HybridSanity.keSim</title>
+</circle>
+<circle cx="744.30" cy="672.47" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Tests.Crypto.HybridSanity.toyKEM</title>
+</circle>
+<circle cx="535.48" cy="392.92" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.UC.realExecution</title>
+</circle>
+<circle cx="331.44" cy="452.79" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.UC.idealExecution</title>
+</circle>
+<circle cx="975.45" cy="594.13" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.UC.UCSecure</title>
+</circle>
+<circle cx="230.82" cy="225.60" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.IdealFunctionality.IdealFunctionality</title>
+</circle>
+<circle cx="283.28" cy="112.53" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.IdealFunctionality.Protocol</title>
+</circle>
+<circle cx="229.75" cy="146.85" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.Composition.uc_composition</title>
+</circle>
+<circle cx="304.00" cy="247.18" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.Composition.CompositionKit</title>
+</circle>
+<circle cx="376.93" cy="323.46" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.Simulator.Simulator</title>
+</circle>
+<circle cx="143.96" cy="181.82" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.Instances.IdealSecureChannel.IdealSecureChannel</title>
+</circle>
+<circle cx="191.78" cy="237.46" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Security.Composable.Instances.IdealKeyExchange.IdealKeyExchange</title>
+</circle>
+<circle cx="645.74" cy="289.36" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.IdealFunctionality</title>
+</circle>
+<circle cx="1035.14" cy="642.77" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.Protocol</title>
+</circle>
+<circle cx="1120.00" cy="659.02" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.Simulator</title>
+</circle>
+<circle cx="1087.42" cy="733.82" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.UCSecure</title>
+</circle>
+<circle cx="891.91" cy="626.99" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.realExecution</title>
+</circle>
+<circle cx="1083.00" cy="506.87" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.idealExecution</title>
+</circle>
+<circle cx="1008.52" cy="551.41" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.CompositionKit</title>
+</circle>
+<circle cx="938.15" cy="491.61" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.uc_composition</title>
+</circle>
+<circle cx="708.27" cy="391.33" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.IdealKeyExchange</title>
+</circle>
+<circle cx="585.93" cy="309.07" r="4" fill="#1565c0" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Composable.IdealSecureChannel</title>
+</circle>
+<circle cx="397.43" cy="220.08" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Hybrid.QKDPQHybrid.hybrid_security</title>
+</circle>
+<circle cx="490.51" cy="488.76" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Hybrid.QKDPQHybrid.HybridKEM</title>
+</circle>
+<circle cx="622.53" cy="550.91" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Hybrid.QKDPQHybrid.PQSecure</title>
+</circle>
+<circle cx="314.52" cy="361.36" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Hybrid.QKDPQHybrid.HybridSecure</title>
+</circle>
+<circle cx="542.02" cy="483.92" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.Hybrid.QKDPQHybrid.HybridKEM</title>
+</circle>
+<circle cx="344.20" cy="180.56" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybrid_security_of_left</title>
+</circle>
+<circle cx="70.00" cy="276.57" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybrid_security_of_right</title>
+</circle>
+<circle cx="170.73" cy="377.41" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybrid_security_of_or</title>
+</circle>
+<circle cx="154.05" cy="311.97" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybridKey_security_of_left</title>
+</circle>
+<circle cx="135.42" cy="122.09" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybridKey_security_of_right</title>
+</circle>
+<circle cx="347.80" cy="70.00" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybridKey_security_of_or</title>
+</circle>
+<circle cx="930.66" cy="677.76" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.for</title>
+</circle>
+<circle cx="940.77" cy="753.67" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.IND_CCA</title>
+</circle>
+<circle cx="828.94" cy="693.32" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybridKEM</title>
+</circle>
+<circle cx="852.68" cy="766.42" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.KeySecure</title>
+</circle>
+<circle cx="416.98" cy="454.21" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.hybridKeySource</title>
+</circle>
+<circle cx="1027.31" cy="805.27" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.KEMScheme</title>
+</circle>
+<circle cx="918.22" cy="830.00" r="4" fill="#ef6c00" stroke="#0b1220" stroke-width="1">
+  <title>HeytingLean.Crypto.KEM.HybridKEM.KeySource</title>
+</circle>
+<rect x="1160" y="68" width="10" height="10" fill="#ef6c00" stroke="#374151" stroke-width="1"/>
+<text x="1176" y="77" fill="#e5e7eb" font-size="12" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial">Hybrid <tspan fill="#cbd5e1">(22)</tspan></text>
+<rect x="1160" y="84" width="10" height="10" fill="#1565c0" stroke="#374151" stroke-width="1"/>
+<text x="1176" y="93" fill="#e5e7eb" font-size="12" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial">UC <tspan fill="#cbd5e1">(20)</tspan></text>
+</svg>

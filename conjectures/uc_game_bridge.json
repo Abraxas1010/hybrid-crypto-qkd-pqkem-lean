@@ -1,0 +1,36 @@
+{
+  "id": "uc_game_bridge",
+  "version": 1,
+  "statement": "Refine UCSecure to tie its indistinguishability relation to an explicit game-based notion (e.g., computational indistinguishability or ct-crypto-lean bridge), and replace interface-level True-based satisfiability with quantified properties.",
+  "status": "open",
+  "priority": "high",
+  "dependencies": {
+    "blocks": [],
+    "depends_on": []
+  },
+  "subgoals": { "total": 3, "closed": 0 },
+  "approaches": [
+    {
+      "date": "2026-01-11",
+      "agent": "codex",
+      "strategy": "(1) Introduce a parametric indistinguishability family (computational/it/physical) with constraints; (2) Provide a game wrapper for real/ideal distinguishing; (3) Instantiate Phase 7 CT→UC bridge to witness physical instantiation; (4) Update QKDPQHybrid.HybridSecure to depend on non-vacuous predicates.",
+      "outcome": "open",
+      "pre_search": {
+        "internal": [
+          "HeytingLean.Security.Composable.UC: current UCSecure existential",
+          "HeytingLean.Security.Model.Unified.CTImpliesUC: bridge class"
+        ],
+        "external": [
+          "Canetti UC primer",
+          "ct-crypto-lean UC formalizations (if public)"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-11",
+    "created_by": "codex",
+    "tags": ["uc", "games", "qkd", "hybrid"]
+  }
+}
+

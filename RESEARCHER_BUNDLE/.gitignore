@@ -1,0 +1,7 @@
+.lake/
+*.olean
+*.ilean
+*.c
+*.trace
+*.hash
+.setup.json

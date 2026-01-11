@@ -1,0 +1,36 @@
+{
+  "id": "kem_indcca_game",
+  "version": 1,
+  "statement": "Define a concrete IND-CCA game for abstract KEMScheme and replace the current True placeholder with a game-based predicate; connect to Games/INDCCA when available.",
+  "status": "open",
+  "priority": "high",
+  "dependencies": {
+    "blocks": [],
+    "depends_on": []
+  },
+  "subgoals": { "total": 3, "closed": 0 },
+  "approaches": [
+    {
+      "date": "2026-01-11",
+      "agent": "codex",
+      "strategy": "(1) Lift or mirror the structure in HeytingLean.Crypto.Games.INDCCA to a predicate IND_CCA (KEMScheme) using a concrete game; (2) Refactor HybridKEM.lean to import that predicate; (3) Prove tautologies become real implications via bridging lemmas.",
+      "outcome": "open",
+      "pre_search": {
+        "internal": [
+          "HeytingLean.Crypto.Games.INDCCA: KEM interface + adversary shape",
+          "HeytingLean.Crypto.KEM.HybridKEM: IND_CCA placeholder documented"
+        ],
+        "external": [
+          "Bellare–Rogaway game-based security references (textbook)",
+          "IACR ePrint 2024/039 (X-Wing hybrid KEM)"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-11",
+    "created_by": "codex",
+    "tags": ["kem", "ind-cca", "games", "pqc"]
+  }
+}
+
