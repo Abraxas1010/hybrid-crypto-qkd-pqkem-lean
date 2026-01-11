@@ -31,6 +31,36 @@ This repo mechanizes hybrid key establishment protocols that combine **informati
 
 ---
 
+## Why This Matters
+
+### The Quantum Threat is Real
+
+Large-scale quantum computers will break RSA, DSA, and elliptic curve cryptography via Shor's algorithm. The cryptographic community is responding with:
+
+1. **Post-Quantum Cryptography (PQC)**: NIST finalized [FIPS 203 (ML-KEM)](https://csrc.nist.gov/pubs/fips/203/final) in August 2024, with immediate deployment recommended.
+
+2. **Quantum Key Distribution (QKD)**: Protocols like BB84 offer information-theoretic security based on quantum mechanics, not computational assumptions.
+
+3. **Hybrid Constructions**: Combine both approaches—if *either* remains secure, the system remains secure.
+
+### Industry is Moving Now
+
+- [**X-Wing**](https://datatracker.ietf.org/doc/draft-connolly-cfrg-xwing-kem/) (X25519 + ML-KEM-768) is in IETF standardization (draft-09, September 2025)
+- **AWS/Cloudflare** have deployed hybrid TLS with ML-KEM ([source](https://blog.cloudflare.com/pq-2025/))
+- **NIST SP 800-227** (draft) provides guidance on hybrid KEM constructions
+
+### The Verification Gap
+
+Despite extensive cryptographic research, formal verification of hybrid constructions lags behind:
+
+- **UC Framework Complexity**: Canetti's framework is powerful but difficult to mechanize. [EasyUC](https://eprint.iacr.org/2019/582) represents state-of-the-art but requires substantial expertise.
+- **QKD Proof Gaps**: [Recent work](https://arxiv.org/html/2502.10340) identifies significant gaps in BB84 security proofs.
+- **No Lean 4 Crypto Library**: Unlike Coq (FCF) or EasyCrypt, Lean 4 lacks mature crypto verification infrastructure.
+
+**This formalization provides verified scaffolding** that future work can instantiate with concrete security reductions.
+
+---
+
 ## Architecture Visualized
 
 <table>
@@ -211,6 +241,86 @@ The formalization uses only standard Lean kernel axioms:
     │   └── visuals/                 # 2D/3D UMAP previews
     └── reports/                     # Build transcripts
 ```
+
+---
+
+## Applications
+
+This formalization provides verified scaffolding for:
+
+### TLS 1.3 Hybrid Key Exchange
+- **X-Wing integration**: The `hybridKEM` combiner directly models the X25519 + ML-KEM-768 composition in X-Wing
+- **Hybrid TLS verification**: Prove that hybrid TLS deployments (AWS, Cloudflare) inherit security from either component
+
+### Enterprise Key Management
+- **HSM integration**: Formalize key establishment protocols combining hardware security modules with post-quantum algorithms
+- **Key derivation chains**: Prove security of hierarchical key derivation using hybrid combiners
+
+### Quantum Network Protocols
+- **QKD backbone verification**: The UC framework supports modeling QKD as an ideal functionality with information-theoretic guarantees
+- **Hybrid quantum-classical networks**: Prove that mixing QKD links with classical post-quantum encryption preserves security
+
+### Standards Compliance
+- **NIST SP 800-227**: Verify implementations align with NIST hybrid KEM guidance
+- **FIPS 203 integration**: Ground the abstract KEM interface in concrete ML-KEM specifications
+
+---
+
+## Future Work / Roadmap
+
+### Phase 1: Ground Security Predicates
+*Replace placeholder definitions with game-based security notions*
+
+- [ ] **IND-CCA Game**: Define the IND-CCA security game for KEMs with challenger, oracle queries, and advantage bounds
+- [ ] **UC Simulation**: Ground `UCSecure` in explicit simulator existence and environment indistinguishability
+- [ ] **Tracked in**: `conjectures/kem_indcca_game.json`, `conjectures/uc_game_bridge.json`
+
+### Phase 2: Concrete Instantiations
+*Instantiate abstract interfaces with specific algorithms*
+
+- [ ] **ML-KEM-768**: Formalize CRYSTALS-Kyber / ML-KEM as a `KEMScheme` instance
+- [ ] **X25519**: Formalize X25519 Diffie-Hellman as a KEM via the HPKE construction
+- [ ] **BB84**: Model BB84 QKD protocol and prove it realizes `IdealKeyExchange`
+
+### Phase 3: Full Security Proofs
+*Complete the game-based reductions*
+
+- [ ] **Hybrid KEM reduction**: Prove `IND_CCA(K1) ∨ IND_CCA(K2) → IND_CCA(hybridKEM K1 K2)` with explicit advantage bounds
+- [ ] **UC composition theorem**: Prove the full UC composition theorem with concrete simulator construction
+- [ ] **QKD security**: Import/formalize BB84 security proof (addressing gaps identified in recent literature)
+
+### Phase 4: Tooling and Integration
+*Bridge to practical deployment*
+
+- [ ] **Code extraction**: Extract verified Lean code to executable implementations
+- [ ] **Formal specification**: Generate formal specs from Lean types for hardware implementations
+- [ ] **Test oracle generation**: Derive test vectors from formal definitions
+
+---
+
+## Honest Assessment
+
+### What This Formalization Achieves
+
+1. **Verified Interface Contracts**: The type signatures and structure of hybrid composition are machine-checked
+2. **Composition Patterns**: The "either breaks" security pattern is structurally proven
+3. **UC Scaffolding**: A lightweight UC framework ready for instantiation
+4. **Documentation**: Complete mapping from cryptographic concepts to Lean code
+
+### What This Formalization Does NOT Achieve (Yet)
+
+1. **Real Security Guarantees**: The `IND_CCA`, `PQSecure`, and `UCSecure` predicates are placeholder `True`
+2. **Concrete Instantiations**: No specific algorithms (ML-KEM, X25519, BB84) are formalized
+3. **Advantage Bounds**: No quantitative security bounds or reductions to computational assumptions
+4. **EasyUC Compatibility**: Not integrated with existing UC verification frameworks
+
+### Why Interface-First Matters
+
+This approach is intentional, not a limitation. By establishing the *structure* of security reductions first:
+
+- Future work can focus on grounding predicates without re-proving composition
+- The architecture can be validated before investing in complex game definitions
+- Other researchers can instantiate the interfaces with their own security notions
 
 ---
 
